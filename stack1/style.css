@@ -1,0 +1,19 @@
+body{font-family:'Inter',Arial,sans-serif;margin:0;padding:0;background:#f0f2f5;color:#333;}
+header{padding:15px;background:#00aaff;color:white;text-align:center;}
+header h1{margin:0;font-size:2rem;}
+header p{margin:5px 0 0;font-size:1rem;}
+.llm-selector{margin-top:10px;text-align:center;}
+main{display:flex;flex-wrap:wrap;padding:15px;gap:15px;}
+.input-section{flex:1;min-width:300px;background:white;padding:15px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);}
+.buttons-row{display:flex;gap:10px;margin-top:10px;}
+textarea{width:100%;padding:8px;border-radius:8px;border:1px solid #ccc;resize:vertical;font-family:monospace;}
+button{padding:8px 12px;border:none;border-radius:8px;background:linear-gradient(135deg,#f0a500,#ffbb33);color:white;font-weight:600;cursor:pointer;transition:all 0.2s;}
+button:hover{opacity:0.9;transform:translateY(-2px);}
+.task-list{flex:1;min-width:250px;background:white;padding:15px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);}
+ul{list-style:none;padding:0;margin:0;}
+li{margin-bottom:8px;}
+.task-text{font-weight:500;}
+.comment-section{flex-direction:column;margin-top:5px;}
+.comment-list{padding-left:10px;margin-bottom:5px;}
+.comment-input{display:flex;gap:5px;}
+.copied-msg{position:fixed;top:10px;right:10px;background:#2ecc71;color:white;padding:8px 12px;border-radius:8px;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
